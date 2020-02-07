@@ -25,3 +25,10 @@ It consist of four pages
 
 <h3>Chef</h3>
 <p>This page is for chef to view the user placed orders and thier details.</p>
+
+<h3>Technologies used</h3>
+<ul>
+  <li>React</li>
+  <li>Vanilla css</li>
+  <li>JSX</li>
+</ul>
