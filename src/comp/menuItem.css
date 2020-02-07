@@ -1,0 +1,35 @@
+.menuItem {
+  border-bottom: 2px solid #6c63ff;
+  padding: 1% 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.foodName {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-weight: 600;
+  width: 300px;
+}
+
+
+.foodPrice {
+  width: 30px;
+}
+.timing {
+  width: 200px;
+}
+
+.served {
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .foodName {
+    width: 100px;
+  }
+  .menuItem {
+    padding: 4% 5%;
+  }
+}

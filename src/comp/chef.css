@@ -1,0 +1,24 @@
+.orderContainer {
+  text-align: left;
+  margin-top: 20px;
+  margin: auto auto;
+}
+
+.orders {
+  box-shadow: #6c63ff 2px 2px 5px;
+  padding: 2% 3%;
+  margin: 2% 0;
+}
+
+@media screen and (min-width: 600px) {
+  .orderContainer {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .orderContainer {
+    min-width: 200px;
+    max-width: 400px;
+  }
+}

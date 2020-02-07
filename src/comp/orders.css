@@ -1,0 +1,79 @@
+.addButton{
+    background-color: #6c63ff;
+    color: white;
+}
+
+.btn{
+    padding:10px 10px !important;
+    width:40px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: #6c63ff 2px 2px 5px;
+}
+
+.place{
+    margin-top: 20px !important;
+    width:100px !important;
+    float: right;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: #6c63ff 2px 5px 8px;
+}
+
+.btn:active{
+    box-shadow: #6c63ff 0px 0px 0px;
+}
+
+.removeButton{
+    background-color: rgb(235, 235, 235);
+}
+.orderName{
+    width:300px;
+}
+
+.orderItem{
+    border-bottom: 2px solid #6c63ff;
+    padding:1% 5% ;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    }
+
+.table{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}    
+.table:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(12, 192, 12);
+    outline: none;
+}
+
+
+
+
+/* for lower screen size ie)Mobile */
+@media screen and (max-width: 600px) {
+
+    .orderName{
+        width:70px;
+    }
+
+    .table{
+     
+        margin-top:10px;
+        margin-bottom: 20px;
+        padding:10px 10px;
+    }
+
+    .orderItem{
+        padding: 5% 5%;
+    }
+    
+}

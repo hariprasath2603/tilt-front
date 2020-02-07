@@ -1,0 +1,44 @@
+nav {
+  padding: 2% 3%;
+  background-color: #6c63ff;
+  color: white;
+  height: 5vh;
+}
+
+#logo {
+  margin-right: auto;
+  font-family: "Asap", sans-serif;
+  font-weight: 900;
+}
+
+.logo-right {
+  margin-left: auto;
+  float: right;
+  padding-right: 3%;
+}
+
+.nav-item {
+  padding: 0 5%;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-right {
+    display: none;
+  }
+  nav {
+    text-align: center;
+    padding: 5% 5%;
+  }
+  #logo {
+    font-size: 1.6rem;
+  }
+}

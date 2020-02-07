@@ -1,0 +1,71 @@
+.landingMain {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto auto;
+  padding-top: 4%;
+  height: 400px;
+}
+
+.landingWelcome {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.landingWelcome,
+h3 {
+  padding-top: 10%;
+}
+
+.landingImage {
+  margin: auto 0;
+  grid-column: 4/4;
+}
+
+.addBtn {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btnlan {
+  margin: auto auto;
+  width: 80%;
+  height: 10%;
+  margin-bottom: 5%;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  box-shadow: #6c63ff 2px 2px 5px;
+}
+
+.btnlan:hover {
+  cursor: pointer;
+  box-shadow: #6c63ff 2px 5px 8px;
+}
+
+.btnlan:active {
+  box-shadow: #6c63ff 0px 0px 0px;
+}
+
+.removeBtn {
+  background-color: rgb(235, 235, 235);
+}
+
+@media screen and (max-width: 600px) {
+  .landingMain,
+  .landingWelcome,
+  .landingImage {
+    display: block;
+  }
+  .btnlan {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .landingMain {
+    padding: 0 0;
+  }
+  .landingImage {
+    margin: auto auto;
+    text-align: center;
+  }
+}
