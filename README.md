@@ -1,7 +1,8 @@
 <h1>MobTel</h1>
 <p>This web app was indende for a Hotel appliction where the user can take a look on menu plcae the order and chef has a seperate page which consist of customer placed order.</p>
 
-<a href="https://elegant-heyrovsky-d4b552.netlify.com/">Nelify deployed verstion </a>
+<a href="https://elegant-heyrovsky-d4b552.netlify.com/" target="blank">Nelify deployed verstion </a><br>
+Link to <a href="https://github.com/hariprasath2603/tilt-bck" targrt="blank">Backend</a>
 
 <h3>Content</h3>
 It consist of four pages 
